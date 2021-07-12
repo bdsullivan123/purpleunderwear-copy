@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Purple Underwear</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Purple Underwear</h1>
+            <p>Welcome <span class='name'>Brendan Sullivan</span> to the most fun you'll have all day.</p>        
+        </header>
+
+        <div class='container'>
+            <form id="myForm">
+                <input id="text" placeholder="What needs to be done?" type="text">
+            </form>
+        </div>
+
+        <div id='tasks'>
+            <h3>Tasks</h3>
+            <p>You will be editing the following files: index.html, css/main.css and js/app.js.</p>
+            <ol id="orderedList">
+                <li class="completed">Add your name in the <code>span.name</code> element</li>
+                <li class="completed">Add <code>.completed</code> onto each list item you have completed (and everyone here on after).</li>
+                <li class="completed">Make the font in the <code>.name</code> class be blue and bold.</li>
+                <li class="completed">Create a <code>form</code> in the <code>div.container</code>, then create a text <code>input</code> in the <code>form</code>.</li>
+                <li class="completed">On the <code>input</code>, add a place holder of <code>What needs to be done?</code></li>
+                <li class="completed">Make the <code>#tasks ol li</code> elements turn the cursor to a pointer</li>
+                <li class="completed">Capture the submit event on the <code>form</code> and prevent it from reloading the page.</li>
+                <li class="completed">On submit, get the input value and append it to the <code>#tasks ol</code></li>
+                <li class="completed">Using CSS Only: If elements with the class <code>.name</code> on them is not empty, add a comma at the end of the element. (Bonus Points)</li>
+            </ol>
+        </div>
+
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
